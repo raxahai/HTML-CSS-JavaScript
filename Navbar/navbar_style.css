@@ -1,0 +1,48 @@
+.container{
+	/*border: 2px solid red;*/
+	/*height: 6em;*/
+	background: #6a6b60;
+	/*overflow: auto;*/
+	display: flex;
+	/*flex-direction: column;*/
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: center;*/
+}
+*{
+	font-family: 'Spartan';
+}
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*margin-left: 10px;*/
+	/*display: inline-block;*/
+	height: 31px;
+	padding-top: 13px;
+	background: #6a6b60;
+	text-shadow: 3px 4px 4px rgba(16,17,17,0.87);
+	font-size: 20px;
+}
+a:hover{
+	background: #3e9641;
+	color: black;
+	text-shadow: 3px 4px 4px rgba(43,104,45,0.87);
+}
+a + a{
+	/*margin-left: 20px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	padding-top: 15px;
+}
+/*#item-1{
+	flex-grow: 1;
+}
+#item-2{
+	flex-grow: 2;
+}*/
