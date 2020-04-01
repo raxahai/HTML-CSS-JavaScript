@@ -1,0 +1,44 @@
+/* reset css */
+body {
+  margin: 0;
+  padding: 0;
+}
+.container h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+.container {
+  height: 100vh;
+  background-image: url("images/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 105vw 110vh;
+  opacity: 0.7;
+}
+.btn {
+  height: 80px;
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  border-radius: 40px;
+  outline: none;
+  position: relative;
+  top: 200px;
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background-color: #f5f7fa;
+}
+#btn1 {
+  background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+}
+#btn2 {
+  background-image: url("images/next.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  float: right;
+}
