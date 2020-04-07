@@ -13,6 +13,7 @@ body {
   background-image: url("images/image1.jpg");
   background-repeat: no-repeat;
   background-size: 105vw 110vh;
+  transition: 1s;
   opacity: 0.7;
 }
 .btn {

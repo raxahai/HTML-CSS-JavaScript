@@ -14,7 +14,6 @@ function next_item() {
   if (image_counter >= images.length) {
     image_counter = 0;
   }
-  container.style.transition = "background-image 1.5s";
   container.style.backgroundImage = "url(" + images[image_counter] + ")";
 }
 btn1.addEventListener("click", function back_item() {
@@ -22,7 +21,6 @@ btn1.addEventListener("click", function back_item() {
   if (image_counter < 0) {
     image_counter = images.length - 1;
   }
-  container.style.transition = "background-image 1.5s";
   container.style.backgroundImage = "url(" + images[image_counter] + ")";
 });
 
